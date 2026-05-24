@@ -6,3 +6,11 @@ NUM2=30
 SUM=$(($NUM1+$NUM2))
 
 echo "Sum is: $SUM"
+
+
+#Arrar
+MOVIES=("RRR" "Varanasi" "Pushpa") # index always starts from 0
+echo "Movies are ${MIVIES[@]}"
+echo "First Movie is ${MIVIES[0]}"
+echo "First Movie is ${MIVIES[1]}"
+echo "First Movie is ${MIVIES[2]}"
