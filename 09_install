@@ -10,11 +10,12 @@ if [ $USERID -ne 0]; then
 fi
 
 echo "Installing MySQL"
-dnf install mysqldfsd -y
+dnf install mysql -y
 
-echo "I am continuing..."
 
-echo " I am still continuing"
-
-#fi [$? -ne 0]; then
-#echo "mysql is installed"
+fi [$? -ne 0]; then
+echo "Installing MySql is   .... FAILED"
+exit 1
+else 
+echo "Install Mysql is .. SUCCESS"
+fi
