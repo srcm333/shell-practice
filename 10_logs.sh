@@ -2,9 +2,9 @@
 
 USERID=$(id -u)
 LOGS_DIR=/home/ec2-user/shell-logs
-LOGS_FILE="$LOGS_DIR/$0.log  #/home/ec2-user/shell-logs/10_logs.sh.log
+LOGS_FILE="$LOGS_DIR/$0.log"  # /home/ec2-user/shell-logs/10_logs.sh.log
 
-#check root access or not
+# check root access or not
 if [ $USERID -ne 0 ]; then
      echo "Please run this script with root access"
      exit 1
