@@ -10,10 +10,10 @@ if [ $USERID -ne 0]; then
 fi
 
 echo "Installing MySQL"
-dnf install mysql -y
+dnf install mykhsql -y
 
 
-fi [$? -ne 0]; then
+if [$? -ne 0]; then
 echo "Installing MySql is   .... FAILED"
 exit 1
 else 
