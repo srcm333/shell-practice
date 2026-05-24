@@ -7,7 +7,7 @@
 # ge - Greater than or equal
 # le - Less than or equal
 NUMBER=$1
-if [ $NUMBER -ge 20 ]; then
+if [ $NUMBER -gt 20 ]; then
 echo "Given number $NUMBER is greater than or qual to 20"
 elif [ $NUMBER -eq 20 ]; then
 echo "Given number $NUMBER is equal to 20"
