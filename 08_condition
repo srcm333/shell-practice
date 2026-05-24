@@ -1,0 +1,12 @@
+#!/bin/bash/
+
+# gt - greater than
+# lt - Less than 
+# eq - equal
+# ne - not equal
+# ge - Greater than or equal
+# le - Less than or equal
+NUMBER=$1
+if [ $NUMBER -ge 20 ]; then
+echo "Given number $NUMBER is greater than or qual to 20"
+fi 
