@@ -10,7 +10,7 @@ if [ $USERID -ne 0 ]; then
 fi
 
 echo "Installing MySQL"
-dnf install mykhsql -y
+dnf install mysql -y
 
 
 if [ $? -ne 0 ]; then
