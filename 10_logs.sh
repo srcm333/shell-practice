@@ -14,7 +14,7 @@ fi
 # first arg  -> what are you trying to install
 # second arg  -> exit code
 VALIDATE(){
-      if [ $2 -ne 0]; then
+      if [ $2 -ne 0 ]; then
       echo "Installing $1 is ... Failed"
       exit 1
     else
