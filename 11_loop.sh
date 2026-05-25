@@ -1,8 +1,8 @@
 #!/bin/bash
 
-for i in {1...100}
+for number in {1..100}
 
 do
-   echo $i
+   echo $number
 
 done
