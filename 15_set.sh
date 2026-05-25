@@ -11,6 +11,8 @@ G="\e[32m"
 Y="\e[33m"
 N="\e[0m"
 
+trap 'echo "error at $LINENO", command: $BASH_COMMAND"'
+
 #check root access or not
 if [ $USERID -ne 0 ]; then
      echo "Please run this script with root access"
