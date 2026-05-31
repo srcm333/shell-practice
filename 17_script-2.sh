@@ -2,3 +2,5 @@
 
 echo "I am in: $COUNTRY"
 echo "PID of script-2: $$"
+
+echo :Hello world"
